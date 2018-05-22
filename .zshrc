@@ -107,4 +107,14 @@ alias qmake-tiled='/home/ketan/Qt/5.9.2/gcc_64/bin/qmake'
 alias touchtypeon='xinput set-prop 12 319 0'
 alias touchtypeoff='xinput set-prop 12 319 1'
 alias tiled-qmake='/home/ketan/Qt5.7.0/5.7/gcc_64/bin/qmake -recursive'
+alias tmux='tmux -2'
 
+# Coloring less command
+export LESS=-R
+export LESS_TERMCAP_me=$(printf '\e[0m')
+export LESS_TERMCAP_se=$(printf '\e[0m')
+export LESS_TERMCAP_ue=$(printf '\e[0m')
+export LESS_TERMCAP_mb=$(printf '\e[1;32m')
+export LESS_TERMCAP_md=$(printf '\e[1;34m')
+export LESS_TERMCAP_us=$(printf '\e[1;32m')
+export LESS_TERMCAP_so=$(printf '\e[1;44;1m')
