@@ -91,6 +91,7 @@ set autoread
 set hlsearch
 set incsearch
 set magic
+set hidden
 
 map <C-n> :NERDTreeToggle<CR>
 nnoremap <Tab> :bnext<CR>
