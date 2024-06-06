@@ -67,6 +67,12 @@ require("lazy").setup(
     },
     {
         'L3MON4D3/LuaSnip'
+    },
+    {
+        "folke/tokyonight.nvim",
+        lazy = false,
+        priority = 1000,
+        opts = {},
     }
 }
 )
